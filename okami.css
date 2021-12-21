@@ -1,0 +1,354 @@
+body{
+    background-color: #FFFFFF;
+    color: #000000; 
+    height:500px;
+    padding-bottom: 500px;
+    font-family:sans-serif;
+    background-image: url(images/okamibrushgods.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color:#68d072;
+    background-position: center;
+    padding: 1em;}
+
+/*Menu Bar Code*/
+
+/* menu buttons
+The general use buttons for navigation*/
+
+.home{
+
+    background-image: url(images/homebutton.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    margin-right:1.5em;
+    padding:4em;
+    font-family: sans-serif;
+}
+
+.characters{
+
+    background-image: url(images/CHARACTERS.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    margin-right:1.5em;
+    padding:4.5em;
+    font-family: sans-serif;
+}
+
+.weapons{
+
+    background-image: url(images/weapons.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    margin-right:1.5em;
+    padding:4.5em;
+    font-family: sans-serif;
+}
+
+.bestiary{
+
+    background-image: url(images/bestiary.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    margin-right:1.5em;
+    padding:4.5em;
+    font-family: sans-serif;
+}
+
+.areas{
+
+    background-image: url(images/areas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    margin-right:1.5em;
+    padding:4.5em;
+    font-family: sans-serif;
+}
+
+.brushes{
+
+    background-image: url(images/brushes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    margin-right:1.5em;
+    padding:4.5em;
+    font-family: sans-serif;
+}
+
+/*Current Buttons
+Code for the buttons of the current page visited*/
+
+.homeCurrent{
+
+    background-image: url(images/homecurrent.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    margin-left:1em;
+    margin-right:1.5em;
+    padding:4em;
+    font-family: sans-serif;
+}
+
+.charactersCurrent{
+
+    background-image: url(images/characterscurrent.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    margin-right:1.5em;
+    padding:4.5em;
+    font-family: sans-serif;
+}
+
+.weaponsCurrent{
+
+    background-image: url(images/weaponscurrent.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    margin-right:1.5em;
+    padding:4.5em;
+    font-family: sans-serif;
+}
+
+.bestiaryCurrent{
+
+    background-image: url(images/beastiarycurrent.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    margin-right:1.5em;
+    padding:4.5em;
+    font-family: sans-serif;
+}
+
+.areasCurrent{
+
+    background-image: url(images/areascurrent.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    margin-left: 1.5em;
+    padding:4.5em;
+    font-family: sans-serif;
+}
+
+.brushesCurrent{
+
+    background-image: url(images/brushescurrent.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    margin-right:1.5em;
+    padding:4.5em;
+    font-family: sans-serif;
+}
+
+
+/*pseudo class 
+reacts when your mouse hovers over the link
+*/
+
+.home:hover{
+    background-image: url(images/homeselected.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#ffffff;
+}
+
+.characters:hover{
+    background-image: url(images/charactersselected.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#ffffff;
+
+}
+
+.weapons:hover{
+    background-image: url(images/weaponsselected.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#ffffff;
+
+}
+
+.bestiary:hover{
+    background-image: url(images/beastiaryselected.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#ffffff;
+
+}
+
+.areas:hover{
+    background-image: url(images/areasselected.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#ffffff;
+
+}
+
+.brushes:hover{
+    background-image: url(images/brushesselected.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#ffffff;
+
+}
+
+
+/*pseudoclass
+reacts when your mouse hovers over current page button*/
+
+.homeCurrent:hover{
+    background-image: url(images/homeselected.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#ffffff;
+
+}
+
+.charactersCurrent:hover{
+    background-image: url(images/charactersselected.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#ffffff;
+
+}
+
+.weaponsCurrent:hover{
+    background-image: url(images/weaponsselected.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#ffffff;
+
+}
+
+.bestiaryCurrent:hover{
+    background-image: url(images/beastiaryselected.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#ffffff;
+
+}
+
+.areasCurrent:hover{
+    background-image: url(images/areasselected.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#ffffff;
+
+}
+
+.brushesCurrent:hover{
+    background-image: url(images/brushesselected.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#ffffff;
+    
+}
+
+
+/*End Menu Bar Code*/
+
+
+/*class
+create reusable styles
+apply anywhere I want
+*/
+
+/*generic class*/
+main{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+footer{
+    font-size:.7em;
+    text-align:center;
+    padding-top:500px;
+}
+
+/*multiple rules at once*/
+
+h1 { 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#000000;
+    vertical-align:center;
+    font-family: 'Helvetica', sans-serif;
+}
+
+h2{ 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:2em;
+    color:#FFFFFF;
+    vertical-align:center;
+    font-family: 'Helvetica', sans-serif;
+    background-color: rgba(193, 64, 45, 1);
+}
+
+figure {     margin: 1em;
+            float:left;
+            clear:both;
+            display:table;
+
+}
+
+figcaption {    margin-bottom:10px;
+            text-align: center;}
+
+/* Formatting for Character page*/
+
+.characterDescrip {
+
+            padding-bottom: 140px;
+}
+
+.characterDescripBox{
+        background-color: rgba(246, 240, 232, 0.87);
+        padding-top:2em;
+        border-style:dotted;
+        border-color:red;
+        overflow:auto;
+}
+
+.characterText { 
+           padding-bottom:4em;
+}
+
+.backgroundImage{ background-attachment:fixed;
+            max-height:2000px;
+            min-height:500px;
+}
+
+/* Formatting for area page*/
+
+.location{  
+            float:none;}
+
+th{
+        background-color:#68d072;
+        
+    }
+
+tr:nth-child(odd){
+    
+    background-color: gray;
+    color:white; 
+}
+
+
