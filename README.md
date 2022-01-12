@@ -2,8 +2,12 @@
 
 Final project created for Web Development course at CCAC.
 
-# Utilizes
+## Utilizes
 
-HTML
-CSS
-Bootstrap
+- HTML
+- CSS
+- Bootstrap 
+
+## Usage
+
+Basic fansite project that Details the main characters, weapons and locations.
